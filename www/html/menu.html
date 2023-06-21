@@ -13,26 +13,24 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="www/fontawesome/css/all.css" />
 
     <!-- Feather Icons  -->
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- My Style -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="www/css/style.css" />
   </head>
   <body>
-    <!--  Navbar Star -->
-
     <header class="header">
       <!--  Navbar Star -->
       <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
       <nav class="navbar">
         <div class="navbar-nav">
-          <a href="index.html">Home</a>
-          <a href="menu.html">Menu</a>
-          <a href="about-us.html">About Us</a>
-          <a href="contact-us.html">Contact Us</a>
+          <a href="www/index.html">Home</a>
+          <a href="www/html/menu.html">Menu</a>
+          <a href="www/html/about-us.html">About Us</a>
+          <a href="www/html/contact-us.html">Contact</a>
         </div>
       </nav>
       <div class="navbar-extra">
@@ -44,424 +42,83 @@
       <div class="search-form">
         <input type="search" id="search" placeholder="search here..." />
         <a href="#" id="search"><i data-feather="search"></i></a>
-      </div>      <div class="cart-item-container">
+      </div>
+
+      <div class="cart-item-container">
         <div class="cart-item">
           <a href="#" id="icon-x"><i data-feather="x"></i></a>
-          <img src="../PPL5-main/img/espresso.jpg" alt="" />
+          <img src="www/images/espresso.jpg" alt="" />
           <div class="content">
-            <h3>Kopi Espresso</h3>
-            <div class="price">Rp 20.000</div>
+            <h3>Espresso</h3>
+            <div class="price">Rp20.000</div>
           </div>
         </div>
         <div class="cart-item">
           <a href="#" id="icon-x"><i data-feather="x"></i></a>
-          <img src="../PPL5-main/img/cappucino.jpg" alt="" />
+          <img src="www/images/cappucino.jpg" alt="" />
           <div class="content">
-            <h3>Kopi Cappucino</h3>
-            <div class="price">Rp 25.000</div>
+            <h3>Cappuccino</h3>
+            <div class="price">Rp25.000</div>
           </div>
         </div>
         <div class="cart-item">
           <a href="#" id="icon-x"><i data-feather="x"></i></a>
-          <img src="../PPL5-main/img/latte.jpg" alt="" />
+          <img src="www/images/latte.jpg" alt="" />
           <div class="content">
-            <h3>Kopi Latte</h3>
-            <div class="price">Rp 25.000</div>
+            <h3>Latte</h3>
+            <div class="price">Rp25.000</div>
           </div>
         </div>
         <div class="cart-item">
           <a href="#" id="icon-x"><i data-feather="x"></i></a>
-          <img src="../PPL5-main/img/americano.jpg" alt="" />
+          <img src="www/images/americano.jpg" alt="" />
           <div class="content">
-            <h3>Kopi Americano</h3>
-            <div class="price">Rp 25.000</div>
+            <h3>Americano</h3>
+            <div class="price">Rp25.000</div>
           </div>
         </div>
         <a href="#" class="btn">Checkout</a>
       </div>
     </header>
-    <!--  Navbar End -->
-
-    <!-- Start Menu -->
-    <section id="Menu" class="Menu">
-      <h4>Wide range of coffee and non-coffee drinks</h4>
-      <h2>MENU</h2>
-      <div class="menu-container">
+    <!--  Navbar Star -->
+      <!-- Kontak Section Start -->
+      <section class="contact" id="contact">
+        <h2><span>Contact</span> Us</h2>
         <div class="pembatas"></div>
-        <h2>COFFEE-BASED<span> DRINKS</span></h2>
-        <div class="pembatas2"></div>
-      </div>
-      <div class="shop-box">
-        <div class="item-1">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/caramel-macchiato.jpg" />
+
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.97055414075!2d110.37484495!3d-7.803250449999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1679368707073!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+          <form action="">
+            <h3>Contact Us</h3>
+            <div class="inputBox">
+              <span><i data-feather="user"></i></span>
+              <input type="text" placeholder="name" />
             </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Caramel Macchiato</h3>
-              <label>Espresso coffee and milk sweetened with vanilla syrup.</label>
+            <div class="inputBox">
+              <span><i data-feather="mail"></i></span>
+              <input type="email" placeholder="email" />
             </div>
-          </div>
+            <div class="inputBox">
+              <span><i data-feather="phone"></i></span>
+              <input type="number" placeholder="number" />
+            </div>
+            <input type="submit" value="Call Now" class="cta" />
+          </form>
         </div>
-        <div class="item-2">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/flatwhite.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 30.000</label>
-              <h3>Flat White</h3>
-              <label>Coffee, milk, and also milk foam.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-3">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/Chocolate-Chip-Frappe.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 30.000</label>
-              <h3>Choco Chip Frappe</h3>
-              <label>With extra choco chips</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/frappe.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 30.000</label>
-              <h3>Frappe</h3>
-              <label>Coffee is made by means of a blender</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-5">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/moccacino.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Moccacino</h3>
-              <label>Espresso coffee with a mixture of chocolate and milk</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-6">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/easy-caramel-latte-feature.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 30.000</label>
-              <h3>Caramel Latte</h3>
-              <label>espresso coffee with a mixture of milk and caramel sauce.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/frappuccino.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 35.000</label>
-              <h3>Frappuccino</h3>
-              <label>Espresso coffee with frothed milk.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-8">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/ice-latte.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Ice Latte</h3>
-              <label>Latte with extra ice</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-9">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/latte.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 30.000</label>
-              <h3>Latte Art</h3>
-              <label>Coffee with beautiful painting</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-10">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/americano.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 20.000</label>
-              <h3>Americano</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-11">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/cappucino.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Cappucino</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-12">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/hazelnut_latte-633x641.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <label class="cash">Rp 35.000</label>
-              <h3>Hazelnut Latte</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="menu-container">
-        <h2>NON-COFFEE<span> DRINKS</span></h2>
-        <div class="pembatas2"></div>
-      </div>
-      <div class="shop-box">
-        <div class="item-1">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/tea.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 15.000</label>
-              <h3>Tea</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-2">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/green-tea.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 20.000</label>
-              <h3>Green Tea</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-3">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/lychee-tea.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 20.000</label>
-              <h3>Lychee Tea</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/LEMON-TEA.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 20.000</label>
-              <h3>Lemon Tea</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-5">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/Chocolate.jpeg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 20.000</label>
-              <h3>Chocolate</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-6">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/Chocolate Hazelnut.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Chocolate Hazelnut</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/Mango Smoothies.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Mango Smoothies</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-6">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/strawberry smoothies.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Strawberry Smoothies</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-        <div class="item-6">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/Avocado smoothies.jpg" />
-            </div>
-            <div class="card-body">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <label class="cash">Rp 25.000</label>
-              <h3>Avocado Smoothies</h3>
-              <label>Lorem ipsum dolor sit amet.</label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+      <!-- Kontak Section End -->
+    </header>
     
     <footer>
       <div class="footer">
         <small
-          >Copyright &copy; 2023 - Kelompok PPL (Ivan, Robby, Raisha, Khodijah).
+          >Copyright &copy;
           All Rights Reserved.</small
         >
       </div>
@@ -473,6 +130,6 @@
     </script>
 
     <!-- My Javascript -->
-    <script src="css/js/script.js "></script>
+    <script src="www/js/script.js "></script>
   </body>
 </html>
