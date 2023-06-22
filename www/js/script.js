@@ -40,5 +40,8 @@ window.onscroll = () =>{
 //db
 const db = window.openDatabase('menukeranjang', '8.0', 'menukeranjang', 1*1024*1024);
 db.transaction (t => {
-  t.executeSql
+  t.executeSql('CREATE TABLE keranjangmenu pilihmenu TEXT amount INTEGER price INTEGER')
+  for (let c of coffee) {
+    t.executeSql('INSERT INTO keranjangmenu (pilihmenu, amount, price) VALUES (?, ?, ?)', [c.pilihmenu, c.amount, c.price])
+  }
 })
